@@ -103,7 +103,7 @@ body {
     color: white;
     font-size: 2.5vw;
     /* font-size: 32px; */
-    line-height: 107%;
+    line-height: 110%;
     letter-spacing: -0.01em;
     /* margin-bottom: 1em; */
     text-rendering: optimizeLegibility;
@@ -182,7 +182,7 @@ a {
     /* text-decoration-line: underline; */ 
     color: rgb(255, 255, 255);
     text-decoration: none;
-    border-bottom: 1px violet dashed; }
+    border-bottom: 0.125vw violet dashed; }
   
 a:hover {
     color:violet; }
