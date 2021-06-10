@@ -101,7 +101,8 @@ html, body {
 body {
     font-family: 'Kiss', Times, serif;
     color: white;
-    font-size: 32px;
+    font-size: 2.5vw;
+    /* font-size: 32px; */
     line-height: 107%;
     letter-spacing: -0.01em;
     /* margin-bottom: 1em; */
@@ -145,7 +146,7 @@ body {
         font-size: 32px;
         line-height: 46px;
         letter-spacing: -0.013em; } } */
-    @media screen and (min-width: 1200px) {
+    /*@media screen and (min-width: 1200px) {
       body {
         font-size: 40px;
         line-height: 107%;
@@ -154,7 +155,7 @@ body {
       body {
         font-size: 40px;
         line-height: 53px; } } */
-    @media screen and (min-width: 1440px) {
+    /*@media screen and (min-width: 1440px) {
       body {
         font-size: 44px;
         line-height: 107%; } } */
