@@ -201,7 +201,9 @@ a {
     /* text-decoration-line: underline; */ 
     color: rgb(255, 255, 255);
     text-decoration: none;
-    border-bottom: 2px violet dotted; }
+    /* border-bottom: 2px violet dotted; */
+    border-bottom: 0.125vw violet dotted; 
+  }
   
 a:hover {
     color:violet; }
