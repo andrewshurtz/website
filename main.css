@@ -101,7 +101,7 @@ html, body {
 body {
     font-family: 'Kiss', Times, serif;
     color: white;
-    font-size: calc(1.3rem + 2vw);
+    font-size: calc(1.3rem + 6vw);
     /* font-size: 175%; */
     /* font-size: 2.5vw; */
     /* font-size: 32px; */
