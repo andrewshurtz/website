@@ -170,7 +170,7 @@ p {
   
 .bio {
     text-indent: 1em; 
-    -ms-hyphens: auto;
+    /* -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto; 
     -webkit-hyphenate-limit-before: 3;
@@ -178,7 +178,7 @@ p {
     -moz-hyphenate-limit-chars: 6 3 3;
     -webkit-hyphenate-limit-chars: 6 3 3;
     -ms-hyphenate-limit-chars: 6 3 3;
-    hyphenate-limit-chars: 6 3 3; 
+    hyphenate-limit-chars: 6 3 3; */
   }
   
 .list {
