@@ -115,6 +115,7 @@ body:before {
 
 
 body {
+    background-color: black;
     font-family: 'Kiss', Times, serif;
     color: white;
     font-size: calc(1rem + 1vw);
