@@ -119,31 +119,69 @@ body {
     font-family: 'Kiss', Times, serif;
     color: white;
     font-size: calc(1rem + 1vw);
-      /* font-size: 150%;
-        font-size: 2.5vw;
-        font-size: 32px; */
-    line-height: 115%;
+    line-height: 1.15em;
     letter-spacing: -0.01em;
-      /* margin-bottom: 1em; */
+
     text-rendering: optimizeLegibility;
     font-variant-ligatures: common-ligatures;
     font-variant-numeric: oldstyle-nums;
     font-kerning: normal;
+
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-      /* background: linear-gradient(to bottom right, violet, black) no-repeat;
-        background-size: cover;*/
+          /* background: linear-gradient(to bottom right, violet, black) no-repeat;
+           background-size: cover;*/
   }
 
 img {
     width: 100%;
     height: auto; 
   }
-    
+
 .main {
     margin: 2% 33% 2% 6.25%;
     padding: 0 0 0.5em 0; 
   }
+  @media screen and (max-width: 1000px) {
+    .main {
+      margin: 2% 12.5% 2% 6.25%;
+      padding: 0 0 0.5em 0;
+    } 
+  }
+  
+@media screen and (min-width: 1024px) {
+  .main {
+    margin: 2% 33% 2% 6.25%;
+    padding: 0 0 0.5em 0;
+  }
+}
+
+
+  
+/*
+    .grid {
+      grid-template-columns: 0px 7px 50px repeat(10, 1fr) 50px 7px 0px; } }
+  
+      @media screen and (min-width: 600px) {
+    .grid {
+      grid-template-columns: 0px 4px 1fr 64px repeat(8, 1fr) 64px 1fr 4px 0px;
+      column-gap: 10px; } }
+  @media screen and (min-width: 880px) {
+    .grid {
+      grid-template-columns: 0px 10px 70px 70px repeat(8, 1fr) 70px 70px 10px 0px; } }
+  @media screen and (min-width: 1200px) {
+    .grid {
+      grid-template-columns: 0px 20px 105px 105px repeat(8, 1fr) 105px 105px 20px 0px; } }
+  @media screen and (min-width: 1440px) {
+    .grid {
+      grid-template-columns: 0px 30px 112px 112px 112px repeat(6, 1fr) 112px 112px 112px 30px 0px; } } */
+
+
+
+/* .main {
+    margin: 2% 33% 2% 6.25%;
+    padding: 0 0 0.5em 0; 
+  } */
   
 i {
     font-style: italic; 
@@ -157,10 +195,17 @@ em {
 a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    /* border-bottom: 0.2vw violet dotted; */
+        /* border-bottom: 0.2vw violet dotted; */
     border-bottom: 0.1em violet dotted;
 
   }
+
+/* a::after {
+    content: "";
+    display: block;
+    width: 1em;
+    padding-top: 0.125em;
+    border-bottom: 0.1em solid violet; } */
   
 a:hover {
     color:violet; 
